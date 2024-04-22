@@ -1,0 +1,311 @@
+.white {
+    color:  #fff!important;
+}
+
+.blue{
+    color: #0054a0;
+}
+
+.container {
+    max-width:  100%;
+}
+
+.slim-header {
+    background:  #0054a0;
+}
+
+.current-date{
+    padding:15px 0 0; text-align:right; color:#343a40!important;
+}
+
+.current-date #txt{font-weight: 500;}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+position: fixed;
+top: 0;
+z-index: 999;
+width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .slim-mainpanel {
+padding-top: 75px;
+}
+
+.slim-navbar {
+    padding:  0;
+     border-bottom:  none;
+     background:  none;
+}
+
+.slim-navbar .nav-item {
+    flex:  1 1 auto;
+}
+
+.slim-navbar .nav-item .nav-link {
+    padding:  0 15px;
+}
+
+.slim-navbar .nav-link {
+    border:  0;
+     color:  #ffffff;
+     background-color:  transparent;
+}
+
+.slim-navbar .nav-link:hover, .slim-navbar .nav-link:focus{
+    background-color:#fff;
+}
+
+.slim-navbar .nav-item.active .nav-link {
+    background-color:  transparent;
+     background-image:  none;
+     color:  #54b947;
+}
+
+
+/*Logged User*/
+.logged-user {
+    color:  #ffffff;
+}
+
+.logged-user:hover,  .logged-user:focus,  .slim-header-right .dropdown-c.show > a {
+    color:  #f8f8f8;
+}
+
+.dropbtn {
+    background-color: #0054a0;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    
+    border: none;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#0054a0; border-radius: 5px 5px; }
+
+.logged-user img {
+    border:  0;
+}
+
+.slim-pageheader{
+    padding-top: 25px;
+}
+
+.slim-pageheader button.btn{
+    border-radius: 5px;
+}
+
+.slim-pageheader button.mg-r-10{
+    margin-right:5px; margin-bottom:5px;
+}
+
+.slim-pageheader .slim-pagetitle{padding-right:10px;}
+
+.slim-pageheader>div{max-width:50%; text-align:right;}
+
+.level-up{text-align:right;}
+
+.card {
+    border-radius:  5px;
+     border:  0;
+     box-shadow:  0 1px 1px rgba(0,  0,  0,  0.05);
+}
+
+
+.card h1, .card .h1{font-size: 1.85vw;}
+
+.card-sub-data {
+    color: #343a40!important;
+    border-radius: 0px;
+}
+
+.card-sub-data-title {
+    color: #343a40!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.changable-data-group{
+    transition: transform .1s;
+}
+
+.changable-data-group:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+canvas:hover{
+    cursor: pointer;
+}
+
+.bg-success,  .bg-warning,  .bg-danger {
+    color:  #fff!important;
+}
+
+h6.slim-card-title {
+    font-size: 0.75vw;
+}
+
+.bg-success .slim-card-title,  .bg-warning .slim-card-title,  .bg-danger .slim-card-title {
+    color:  #fff!important;
+}
+
+.target {
+    display: inline-block;
+    width: 32.7%;
+}
+
+.management {
+    color:  #fff!important;
+     background-color:  #0088cc!important;
+}
+
+.broker {
+    color:  #fff!important;
+     background-color:  #2baab1!important;
+}
+
+.investment {
+    color:  #fff!important;
+     background-color:  #734ba9!important;
+}
+
+.finance {
+    color:  #fff!important;
+     background-color:  #E36159!important;
+}
+
+.other {
+    color:  #fff!important;
+     background-color:  #dc3545!important;
+}
+
+
+.modal-header {
+    border-radius:  0;
+}
+
+/*.company #EBITDA_Current_Month_Breakdown{
+    opacity: 0;
+}*/
+
+.company #PrimaryEBITDACard .card-sub-data-title{
+    opacity: unset!important;
+    text-align: center;
+}
+
+.bloyalty .card-sub-data{display: none;}
+
+.new {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 192, 192);
+}
+
+hr.solid {
+    border-top: 3px solid rgb(240, 229, 84);
+}
+
+ul.cloud {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+}
+
+ul.cloud a {
+    color: #a33;
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.125rem 0.25rem;
+    text-decoration: none;
+    position: relative;
+}
+
+ul.cloud a {
+    --size: 4;
+    font-size: calc(var(--size) * 0.25rem + 0.5rem);
+    padding-bottom: 20px;
+}
+
+ul.cloud[data-show-value] a::after {
+    content: " (" attr(data-weight) ")";
+    font-size: 1rem;
+}
+
+ul.cloud li:nth-child(n+1) a { color: #7f6000; --size:  9; font-weight: bold; padding-right: 30px; }
+ul.cloud li:nth-child(2n+1) a { color: #ffc000;  --size:  3; font-weight: normal; padding-right: inherit; }
+ul.cloud li:nth-child(3n+1) a { color: #ffc000; --size:  9; font-weight: bold; padding-right: 30px; }
+ul.cloud li:nth-child(4n+1) a { color: #ff6699; --size:  5; font-weight: normal; padding-right: inherit; }
+ul.cloud li:nth-child(5n+1) a { color: #ff6699; --size:  9; font-weight: bold; padding-right: 30px; }
+ul.cloud li:nth-child(6n+1) a { color: #7f6000; --size:  4; font-weight: normal; padding-right: inherit; }
+
+/* FAQ */
+.faq ul.nav.nav-tabs > li{
+	display: inline-block;
+	text-transform:uppercase;
+    margin-bottom: 15px;
+}
+
+.faq ul.nav.nav-tabs > li a{
+	display:block;
+	padding:15px 25px;
+	
+}
+
+.faq ul.nav.nav-tabs > li a.active{
+	background:	#1b84e7;
+	color:#fff!important;
+	text-decoration: none!important;
+}
+
+.faq ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
+	background:	#0054a0;
+	color:#fff!important;
+	text-decoration: none!important;
+}
+
+
+.tx-14 {
+    font-size: 0.9vw;
+}
+
+.rickshaw_graph svg:not(:root) {
+    overflow: hidden;
+}
+
+/*Nav Dropdown*/
+label.section-label{
+    margin-top:15px;
+}
